@@ -1,14 +1,40 @@
 {
-  "name": "website",
-  "private": true,
+  "name": "@tanaab/website",
+  "description": "The libraries that power all of Lando.",
+  "version": "3.25.2",
+  "author": "Mike Pirog @pirog",
+  "license": "MIT",
+  "repository": "lando/core",
+  "bugs": "https://github.com/lando/core/issues/new/choose",
+  "homepage": "https://github.com/lando/core",
+  "keywords": [
+    "lando",
+    "lando-plugin"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "babel": {},
+  "lando": {},
+  "type": "module",
   "packageManager": "bun@1.2.14",
   "scripts": {
-    "dev": "bunx vitepress dev docs",
-    "build": "bunx vitepress build docs",
-    "serve": "bunx vitepress serve docs"
+    "dev": "bunx vitepress dev .",
+    "build": "bunx vitepress build .",
+    "lint": "eslint . --ext .cjs --ext .js --ext .mjs --ext .ts",
+    "preview": "bunx vitepress preview ."
   },
   "devDependencies": {
-    "vitepress": "^1.0.0",
-    "@lando/vitepress-theme-default-plus": "latest"
+    "@lando/vitepress-theme-default-plus": "^1.1.1",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-import-resolver-exports": "^1.0.0-beta.5",
+    "eslint-import-resolver-typescript-bun": "^0.0.104",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-prettier": "^5.2.3",
+    "eslint-plugin-vue": "^10.0.0",
+    "prettier": "^3.5.3",
+    "sass": "^1.89.2",
+    "vitepress": "^1.5.0"
   }
 }
