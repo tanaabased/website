@@ -1,0 +1,14 @@
+{
+  "name": "website",
+  "private": true,
+  "packageManager": "bun@1.2.14",
+  "scripts": {
+    "dev": "bunx vitepress dev docs",
+    "build": "bunx vitepress build docs",
+    "serve": "bunx vitepress serve docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0",
+    "@lando/vitepress-theme-default-plus": "latest"
+  }
+}
