@@ -30,57 +30,7 @@
     output_path = "reports/lighthouse.html"
 
 [[redirects]]
-  from = "https://tanaab-www.netlify.app/*"
-  to = "https://www.tanaab.dev/:splat"
-  status = 301
-  force = true
-[[redirects]]
-  from = "http://tanaab.dev/*"
-  to = "https://www.tanaab.dev/:splat"
-  status = 301
-  force = true
-[[redirects]]
-  from = "https://tanaab.dev/*"
-  to = "https://www.tanaab.dev/:splat"
-  status = 301
-  force = true
-[[redirects]]
-  from = "http://www.tanaab.dev/*"
-  to = "https://www.tanaab.dev/:splat"
-  status = 301
-  force = true
-[[redirects]]
-  from = "http://tanaab.maneuvering.systems/*"
-  to = "https://www.tanaab.dev/:splat"
-  status = 301
-  force = true
-[[redirects]]
-  from = "http://tanaab.systems/*"
-  to = "https://www.tanaab.dev/:splat"
-  status = 301
-  force = true
-[[redirects]]
-  from = "http://www.tanaab.systems/*"
-  to = "https://www.tanaab.dev/:splat"
-  status = 301
-  force = true
-[[redirects]]
-  from = "http://tanaab.llc/*"
-  to = "https://www.tanaab.dev/:splat"
-  status = 301
-  force = true
-[[redirects]]
-  from = "http://www.tanaab.llc/*"
-  to = "https://www.tanaab.dev/:splat"
-  status = 301
-  force = true
-[[redirects]]
-  from = "http://tanaab.co/*"
-  to = "https://www.tanaab.dev/:splat"
-  status = 301
-  force = true
-[[redirects]]
-  from = "http://www.tanaab.co/*"
+  from = "/*"
   to = "https://www.tanaab.dev/:splat"
   status = 301
   force = true
