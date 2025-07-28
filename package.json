@@ -17,24 +17,22 @@
   "babel": {},
   "lando": {},
   "type": "module",
-  "packageManager": "bun@1.2.14",
   "scripts": {
-    "dev": "bunx vitepress dev .",
-    "build": "bunx vitepress build .",
-    "lint": "eslint . --ext .cjs --ext .js --ext .mjs --ext .ts",
-    "preview": "bunx vitepress preview ."
+    "dev": "npx vitepress dev .",
+    "build": "npx vitepress build .",
+    "lint": "eslint . --ext .cjs --ext .js --ext .mjs",
+    "mvb": "npx mvb .",
+    "preview": "npx vitepress preview ."
   },
   "devDependencies": {
     "@lando/vitepress-theme-default-plus": "^1.1.1",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^10.1.1",
     "eslint-import-resolver-exports": "^1.0.0-beta.5",
-    "eslint-import-resolver-typescript-bun": "^0.0.104",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-prettier": "^5.2.3",
     "eslint-plugin-vue": "^10.0.0",
     "prettier": "^3.5.3",
-    "sass": "^1.89.2",
     "vitepress": "^1.5.0"
   }
 }
