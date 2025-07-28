@@ -35,12 +35,12 @@
   status = 301
   force = true
 [[redirects]]
-  from = "http://tanaab.systems/*"
+  from = "https://tanaab.systems/*"
   to = "https://www.tanaab.dev/:splat"
   status = 301
   force = true
 [[redirects]]
-  from = "http://www.tanaab.systems/*"
+  from = "https://www.tanaab.systems/*"
   to = "https://www.tanaab.dev/:splat"
   status = 301
   force = true
