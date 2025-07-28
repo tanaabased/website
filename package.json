@@ -1,7 +1,7 @@
 {
   "name": "@tanaab/website",
   "description": "The libraries that power all of Lando.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "Mike Pirog @pirog",
   "license": "MIT",
   "repository": "lando/core",
