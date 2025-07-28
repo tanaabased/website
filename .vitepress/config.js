@@ -4,4 +4,9 @@ export default defineConfig({
   lang: 'en-US',
   title: 'TMS Website',
   description: 'Main marketing site',
+  themeConfig: {
+    collections: false,
+    contributors: false,
+    sidebar: {},
+  },
 });
