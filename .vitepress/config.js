@@ -64,9 +64,9 @@ export default defineConfig({
     contributors: false,
     editLink: false,
 
-    // ga: {
-    //   id: null,
-    // },
+    ga: {
+      id: 'G-5FX6Z0BWFR',
+    },
 
     lastUpdated: false,
     navbar: false,
