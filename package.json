@@ -21,6 +21,7 @@
     "dev": "npx vitepress dev .",
     "build": "npx vitepress build .",
     "lint": "eslint . --ext .cjs --ext .js --ext .mjs",
+    "mvb": "npx mvb .",
     "preview": "npx vitepress preview ."
   },
   "devDependencies": {
@@ -32,7 +33,6 @@
     "eslint-plugin-prettier": "^5.2.3",
     "eslint-plugin-vue": "^10.0.0",
     "prettier": "^3.5.3",
-    "sass": "^1.89.2",
     "vitepress": "^1.5.0"
   }
 }

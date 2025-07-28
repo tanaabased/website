@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress';
+import { defineConfig } from '@lando/vitepress-theme-default-plus/config';
 
 export default defineConfig({
   lang: 'en-US',
