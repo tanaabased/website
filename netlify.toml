@@ -28,9 +28,3 @@
   package = "@netlify/plugin-lighthouse"
   [plugins.inputs.audits]
     output_path = "reports/lighthouse.html"
-
-[[redirects]]
-  from = "/*"
-  to = "https://www.tanaab.dev/:splat"
-  status = 301
-  force = true
