@@ -34,6 +34,35 @@
   to = "https://www.tanaab.dev/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "https://tanaab.maneuvering.systems/*"
+  to = "https://www.tanaab.dev/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://tanaab.co/*"
+  to = "https://www.tanaab.dev/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.tanaab.co/*"
+  to = "https://www.tanaab.dev/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://tanaab.llc/*"
+  to = "https://www.tanaab.dev/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.tanaab.llc/*"
+  to = "https://www.tanaab.dev/:splat"
+  status = 301
+  force = true
+
 [[redirects]]
   from = "https://tanaab.systems/*"
   to = "https://www.tanaab.dev/:splat"
