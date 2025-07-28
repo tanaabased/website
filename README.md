@@ -8,7 +8,7 @@ Start by [installing bun](https://bun.sh/).
 
 Clone and install deps:
 
-```bash
+```sh
 git clone https://github.com/tanaabased/website.git
 cd website
 bun install
@@ -16,20 +16,20 @@ bun install
 
 Run dev server
 
-```bash
+```sh
 bun run dev
 ```
 
 Build and preview for production:
 
-```bash
+```sh
 bun run build
 bun run preview
 ```
 
 Lint:
 
-```bash
+```sh
 bun run lint
 ```
 
