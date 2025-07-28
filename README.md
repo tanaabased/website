@@ -55,4 +55,4 @@ Made with [contributors-img](https://contrib.rocks).
 
 ## Other Resources
 
-- [LICENSE](/LICENSE)
+- [LICENSE](https://github.com/tanaabased/website/blob/main/LICENSE)
