@@ -30,6 +30,11 @@
     output_path = "reports/lighthouse.html"
 
 [[redirects]]
+  from = "https://tanaab-www.netlify.app/*"
+  to = "https://www.tanaab.dev/:splat"
+  status = 301
+  force = true
+[[redirects]]
   from = "http://tanaab.dev/*"
   to = "https://www.tanaab.dev/:splat"
   status = 301
