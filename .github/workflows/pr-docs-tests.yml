@@ -21,9 +21,7 @@ jobs:
           key: tanaabsite-mvb-docs
           path: .vitepress/cache/@tanaab/mvb
       - name: Install Bun
-        uses: oven-sh/setup-bun@v2
-        with:
-          bun-version-file: .bun-version
+        uses: tanaabased/actions/setup-bun@v1
       - name: Install dependencies
         run: bun install --no-save --frozen-lockfile
       - name: Run linter
@@ -31,4 +29,6 @@ jobs:
       # - name: Test mvb
       #   run: npm run mvb
       - name: Test build
-        run: bun run build
+        uses: tanaabased/actions/vitepress-build-check@v1
+        with:
+          build-command: bun run build
