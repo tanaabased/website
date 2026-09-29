@@ -20,13 +20,15 @@
   "scripts": {
     "dev": "npx vitepress dev .",
     "build": "npx vitepress build .",
-    "lint": "eslint . --ext .cjs --ext .js --ext .mjs",
+    "lint": "eslint .",
     "mvb": "npx mvb .",
     "preview": "npx vitepress preview ."
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@eslint/js": "^9",
     "@lando/vitepress-theme-default-plus": "^1.1.1",
-    "eslint": "^8.57.1",
+    "eslint": "^9",
     "eslint-config-prettier": "^10.1.1",
     "eslint-import-resolver-exports": "^1.0.0-beta.5",
     "eslint-plugin-import": "^2.31.0",
